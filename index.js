@@ -1,95 +1,96 @@
 const perguntas = [
     {
-      pergunta: "Qual é a maneira correta de declarar uma variável em JavaScript?",
-      respostas: [
-        "var myVar = 5;",
-        "let myVar = 5;",
-        "const myVar = 5;"
-      ],
-      correta: 2
+        pergunta: "Qual jogo popular foi desenvolvido pela empresa Mojang?",
+        respostas: [
+            "Minecraft",
+            "Fortnite",
+            "League of Legends"
+        ],
+        correta: 0
     },
     {
-      pergunta: "Qual dos seguintes métodos converte uma string em um número inteiro em JavaScript?",
-      respostas: [
-        "parseInt()",
-        "parseFloat()",
-        "Number()"
-      ],
-      correta: 0
+        pergunta: "Qual destes jogos é um RPG de ação desenvolvido pela CD Projekt Red?",
+        respostas: [
+            "The Witcher 3: Wild Hunt",
+            "Overwatch",
+            "Grand Theft Auto V"
+        ],
+        correta: 0
     },
     {
-      pergunta: "Como você verifica se duas variáveis têm o mesmo valor e tipo em JavaScript?",
-      respostas: [
-        "==",
-        "===",
-        "="
-      ],
-      correta: 1
+        pergunta: "Qual é o nome do mascote da franquia de jogos da Nintendo?",
+        respostas: [
+            "Sonic",
+            "Pikachu",
+            "Mario"
+        ],
+        correta: 2
     },
     {
-      pergunta: "Qual é a forma correta de escrever um comentário de uma única linha em JavaScript?",
-      respostas: [
-        "// Comentário",
-        "/* Comentário */",
-        "<!-- Comentário -->"
-      ],
-      correta: 0
+        pergunta: "Qual destes jogos é conhecido por seu modo Battle Royale?",
+        respostas: [
+            "Counter-Strike: Global Offensive",
+            "Call of Duty: Modern Warfare",
+            "PlayerUnknown's Battlegrounds (PUBG)"
+        ],
+        correta: 2
     },
     {
-      pergunta: "Qual dos seguintes métodos remove o último elemento de um array em JavaScript?",
-      respostas: [
-        "pop()",
-        "shift()",
-        "splice()"
-      ],
-      correta: 0
+        pergunta: "Qual jogo popular tem um mundo aberto e foi desenvolvido pela Rockstar Games?",
+        respostas: [
+            "Red Dead Redemption 2",
+            "FIFA 22",
+            "Super Mario Odyssey"
+        ],
+        correta: 0
     },
     {
-      pergunta: "Qual função JavaScript é usada para imprimir algo no console?",
-      respostas: [
-        "console.print()",
-        "print()",
-        "console.log()"
-      ],
-      correta: 2
+        pergunta: "Qual é o gênero do jogo 'The Legend of Zelda: Breath of the Wild'?",
+        respostas: [
+            "Plataforma",
+            "Aventura de ação",
+            "Simulação"
+        ],
+        correta: 1
     },
     {
-      pergunta: "Qual símbolo é usado para denotar um comentário em uma linha em JavaScript?",
-      respostas: [
-        "//",
-        "/*",
-        "--"
-      ],
-      correta: 0
+        pergunta: "Qual é o nome do protagonista da série de jogos 'Assassin's Creed'?",
+        respostas: [
+            "Ezio Auditore",
+            "Nathan Drake",
+            "Geralt of Rivia"
+        ],
+        correta: 0
     },
     {
-      pergunta: "Qual dos seguintes métodos é usado para adicionar um elemento ao final de um array em JavaScript?",
-      respostas: [
-        "push()",
-        "unshift()",
-        "concat()"
-      ],
-      correta: 0
+        pergunta: "Qual é o nome do jogo de batalha de cartas da Blizzard Entertainment?",
+        respostas: [
+            "Hearthstone",
+            "Magic: The Gathering",
+            "Yu-Gi-Oh!"
+        ],
+        correta: 0
     },
     {
-      pergunta: "Qual operador é usado para concatenar strings em JavaScript?",
-      respostas: [
-        "+",
-        "&",
-        "||"
-      ],
-      correta: 0
+        pergunta: "Qual é o jogo de estratégia em tempo real (RTS) desenvolvido pela Blizzard Entertainment?",
+        respostas: [
+            "StarCraft II",
+            "Civilization VI",
+            "Age of Empires II"
+        ],
+        correta: 0
     },
     {
-      pergunta: "Qual é a maneira correta de fazer um loop através dos elementos de um array em JavaScript?",
-      respostas: [
-        "for (let i = 0; i < array.length; i++)",
-        "for (let i = 0; i <= array.length; i++)",
-        "for (let i = 1; i <= array.length; i++)"
-      ],
-      correta: 0
+        pergunta: "Qual é o nome do mascote da Sega?",
+        respostas: [
+            "Donkey Kong",
+            "Sonic",
+            "Crash Bandicoot"
+        ],
+        correta: 1
     }
-   ];
+];
+
    // Seleciona o elemento HTML com o id 'quiz'.
    const quiz = document.querySelector('#quiz')
    
