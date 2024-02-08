@@ -1,95 +1,186 @@
 const perguntas = [
     {
-        pergunta: "Qual jogo popular foi desenvolvido pela empresa Mojang?",
-        respostas: [
-            "Minecraft",
-            "Fortnite",
-            "League of Legends"
-        ],
-        correta: 0
+      pergunta: "Qual é o jogo mais vendido de todos os tempos?",
+      respostas: [
+        "Minecraft",
+        "Grand Theft Auto V",
+        "Tetris"
+      ],
+      correta: 2
     },
     {
-        pergunta: "Qual destes jogos é um RPG de ação desenvolvido pela CD Projekt Red?",
-        respostas: [
-            "The Witcher 3: Wild Hunt",
-            "Overwatch",
-            "Grand Theft Auto V"
-        ],
-        correta: 0
+      pergunta: "Qual é o nome do personagem principal de The Legend of Zelda?",
+      respostas: [
+        "Ganondorf",
+        "Link",
+        "Zelda"
+      ],
+      correta: 1
     },
     {
-        pergunta: "Qual é o nome do mascote da franquia de jogos da Nintendo?",
-        respostas: [
-            "Sonic",
-            "Pikachu",
-            "Mario"
-        ],
-        correta: 2
+      pergunta: "Qual é o gênero do jogo 'Super Mario Bros'?",
+      respostas: [
+        "Plataforma",
+        "RPG",
+        "FPS"
+      ],
+      correta: 0
     },
     {
-        pergunta: "Qual destes jogos é conhecido por seu modo Battle Royale?",
-        respostas: [
-            "Counter-Strike: Global Offensive",
-            "Call of Duty: Modern Warfare",
-            "PlayerUnknown's Battlegrounds (PUBG)"
-        ],
-        correta: 2
+      pergunta: "Qual é o desenvolvedor de 'The Witcher 3: Wild Hunt'?",
+      respostas: [
+        "CD Projekt Red",
+        "Ubisoft",
+        "Naughty Dog"
+      ],
+      correta: 0
     },
     {
-        pergunta: "Qual jogo popular tem um mundo aberto e foi desenvolvido pela Rockstar Games?",
-        respostas: [
-            "Red Dead Redemption 2",
-            "FIFA 22",
-            "Super Mario Odyssey"
-        ],
-        correta: 0
+      pergunta: "Em que ano foi lançado o primeiro PlayStation?",
+      respostas: [
+        "1994",
+        "2000",
+        "1998"
+      ],
+      correta: 0
     },
     {
-        pergunta: "Qual é o gênero do jogo 'The Legend of Zelda: Breath of the Wild'?",
-        respostas: [
-            "Plataforma",
-            "Aventura de ação",
-            "Simulação"
-        ],
-        correta: 1
+      pergunta: "Qual é o nome do protagonista de 'Metal Gear Solid'?",
+      respostas: [
+        "Snake",
+        "Big Boss",
+        "Liquid Snake"
+      ],
+      correta: 0
     },
     {
-        pergunta: "Qual é o nome do protagonista da série de jogos 'Assassin's Creed'?",
-        respostas: [
-            "Ezio Auditore",
-            "Nathan Drake",
-            "Geralt of Rivia"
-        ],
-        correta: 0
+      pergunta: "Qual é o console mais vendido de todos os tempos?",
+      respostas: [
+        "PlayStation 2",
+        "Nintendo Switch",
+        "Xbox 360"
+      ],
+      correta: 0
     },
     {
-        pergunta: "Qual é o nome do jogo de batalha de cartas da Blizzard Entertainment?",
-        respostas: [
-            "Hearthstone",
-            "Magic: The Gathering",
-            "Yu-Gi-Oh!"
-        ],
-        correta: 0
+      pergunta: "Qual jogo popular envolve construção e sobrevivência?",
+      respostas: [
+        "Fortnite",
+        "Overwatch",
+        "League of Legends"
+      ],
+      correta: 0
     },
     {
-        pergunta: "Qual é o jogo de estratégia em tempo real (RTS) desenvolvido pela Blizzard Entertainment?",
-        respostas: [
-            "StarCraft II",
-            "Civilization VI",
-            "Age of Empires II"
-        ],
-        correta: 0
+      pergunta: "Quem é o criador do jogo 'Fallout'?",
+      respostas: [
+        "Todd Howard",
+        "Hideo Kojima",
+        "Shigeru Miyamoto"
+      ],
+      correta: 0
     },
     {
-        pergunta: "Qual é o nome do mascote da Sega?",
-        respostas: [
-            "Donkey Kong",
-            "Sonic",
-            "Crash Bandicoot"
-        ],
-        correta: 1
+      pergunta: "Qual é o nome do protagonista de 'Assassin's Creed: Odyssey'?",
+      respostas: [
+        "Ezio Auditore",
+        "Alexios",
+        "Connor Kenway"
+      ],
+      correta: 1
+    },
+    {
+      pergunta: "Qual é o título do jogo que é uma simulação de vida?",
+      respostas: [
+        "The Sims",
+        "SimCity",
+        "Cities: Skylines"
+      ],
+      correta: 0
+    },
+    {
+      pergunta: "Qual é o nome do estúdio que desenvolveu 'Cyberpunk 2077'?",
+      respostas: [
+        "Rockstar Games",
+        "Bioware",
+        "CD Projekt Red"
+      ],
+      correta: 2
+    },
+    {
+      pergunta: "Qual é o nome do protagonista de 'Final Fantasy VII'?",
+      respostas: [
+        "Cloud Strife",
+        "Tifa Lockhart",
+        "Sephiroth"
+      ],
+      correta: 0
+    },
+    {
+      pergunta: "Qual é o nome do criador de 'Minecraft'?",
+      respostas: [
+        "Notch",
+        "Markus Persson",
+        "Gabe Newell"
+      ],
+      correta: 1
+    },
+    {
+      pergunta: "Qual é o primeiro console lançado pela Sony?",
+      respostas: [
+        "PlayStation",
+        "PlayStation 2",
+        "PlayStation 3"
+      ],
+      correta: 0
+    },
+    {
+      pergunta: "Qual é o nome do jogo que popularizou o gênero Battle Royale?",
+      respostas: [
+        "PlayerUnknown's Battlegrounds",
+        "Fortnite",
+        "Apex Legends"
+      ],
+      correta: 0
+    },
+    {
+      pergunta: "Quem é o personagem mascote da Nintendo?",
+      respostas: [
+        "Kirby",
+        "Donkey Kong",
+        "Mario"
+      ],
+      correta: 2
+    },
+    {
+      pergunta: "Qual é o título do jogo que é uma paródia de RPG?",
+      respostas: [
+        "South Park: The Stick of Truth",
+        "Undertale",
+        "Disco Elysium"
+      ],
+      correta: 0
+    },
+    {
+      pergunta: "Qual é o nome do jogo que popularizou o gênero MOBA?",
+      respostas: [
+        "Dota 2",
+        "League of Legends",
+        "Heroes of the Storm"
+      ],
+      correta: 1
+    },
+    {
+      pergunta: "Qual é o nome do protagonista de 'The Last of Us'?",
+      respostas: [
+        "Joel",
+        "Ellie",
+        "Tommy"
+      ],
+      correta: 0
     }
-];
+  ];
+  
 
    // Seleciona o elemento HTML com o id 'quiz'.
    const quiz = document.querySelector('#quiz')
