@@ -1,5 +1,5 @@
 # nlw-experts
- Ternologias usadas:
+ Tecnologias usadas:
  - HTML
  - CSS
  - JAVASCRIPT
